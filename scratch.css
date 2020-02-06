@@ -1,0 +1,80 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   text-align: center;
+   background-color: white;
+}
+
+ .box {
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 5px 10px black;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    background-color: black;
+    font-family: Arial;
+
+ }
+
+.Location{
+   padding: 10px;
+   padding-top:  20px;
+   margin-bottom: 20px;
+
+}
+
+.DailySummary{
+   font-size: medium;
+   padding: 10px;
+   font-family: Arial;
+   color: gray;
+}
+
+.detail{
+   font-weight: bold;
+   column-count: 4;
+   grid-column-gap: 10px;
+   column-rule: 2px gray;
+   column-rule-style: solid;
+   margin-top: 75px;
+   font-family: Arial;
+   text-align: center;
+   color: white;
+   font-size: medium;
+
+
+}
+.detail .Value{
+   font-weight: bold;
+   color: white;
+   text-align: justify;
+   padding: 10px;
+   column-count: 4;
+
+}
+
+.temperature{
+   font-weight: bold;
+   font-size: large;
+}
+.Values{
+   font-weight: lighter;
+   font-family: "Al Nile";
+   font-size: 3rem;
+}
+.Iconlink{
+
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   color: white;
+}
+
+.header{
+   color: white;
+
+}
